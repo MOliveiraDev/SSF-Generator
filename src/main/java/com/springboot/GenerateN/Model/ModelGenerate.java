@@ -17,11 +17,9 @@ public class ModelGenerate {
     private String estado;
     private String cpf;
 
-    // Default constructor
     public ModelGenerate() {
     }
 
-    // Constructor with String parameter
     public ModelGenerate(String cpf) {
         this.cpf = cpf;
     }
