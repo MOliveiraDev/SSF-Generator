@@ -1,0 +1,13 @@
+package com.springboot.GenerateN.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class ServiceGenerate {
+
+    @Autowired
+    private Repository repository;
+
+    private String gerarPrimeirosDigitos
+}
